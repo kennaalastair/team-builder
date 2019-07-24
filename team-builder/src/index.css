@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+header {
+  background-image: linear-gradient(to bottom right, #d580ff, #99ccff);
+}
+
+h1 {
+  margin: 0;
+  padding: 25px 0;
+}
+
+.list {
+  padding: 50px 0;
+}
+
+.member {
+  padding: 25px;
+  border: 1px solid #d580ff;
+}
+
+form.submitform {
+  padding: 25px;
+  border: 1px solid #99ccff;
+}

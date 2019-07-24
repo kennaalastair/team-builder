@@ -21,7 +21,9 @@ const App = props => {
 
   return (
     <div className="App">
-      <h1>Team Members</h1>
+      <header>
+        <h1>Team Members</h1>
+      </header>
       <div className='list'>
         {memberList.map((member, index) => (
           <Member key={index}
@@ -32,7 +34,6 @@ const App = props => {
         ))}
       </div>
       <Form submit={submit}/>
-      <button className="btn-edit">Edit</button>
     </div>
   );
 }
