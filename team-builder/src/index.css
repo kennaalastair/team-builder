@@ -26,6 +26,9 @@ h1 {
 }
 
 .member {
+  width: 250px;
+  height: 200px;
+  margin-top: 50px;
   padding: 25px;
   border: 1px solid #d580ff;
 }
