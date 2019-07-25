@@ -42,7 +42,7 @@ function Form(props) {
 
             </div>
 
-            <button type="submit">Add Member</button>
+            <button type="submit" className="btn-add-member">Add Member</button>
         </form >
     );
 }
