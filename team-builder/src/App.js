@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import Form from './Form';
-import Member from './Member';
+import Form from './Components/Form';
+import Member from './Components/Member';
 
 const App = props => {
   const [memberList, setMemberList] = useState(props.members);
